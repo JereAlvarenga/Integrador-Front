@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ===================== HEADER ===================  */
+
+
+/* ------- Navbar ------- */
+
+.Background-navbar{
+    background-color: rgb(57, 56, 56);
+   
+}
+
+.navbar {
+    margin: 0 5%;
+    background-color: rgb(57, 56, 56);
+
+}
+
+.container-fluid .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:  white;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.475); 
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(235, 213, 16);
+}
+
+#nav-link-white{
+    color:  white;
+}
+
+#nav-link-white:hover{
+    color: rgb(235, 213, 16);
+}
+
+#nav-link-green{
+    color: rgb(8, 170, 8);
+}
+
+#nav-link-green:hover{
+    color: rgb(235, 213, 16);
+
+}
+
+
+/* ------- Imagen ------- */
+
+
+
+
+
+
