@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,68 +8,47 @@
     list-style: none;
 }
 
-
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
+/* ====== Header ====== */
 
-
-/* ===================== HEADER ===================  */
-
-
-/* ------- Navbar ------- */
+/* --- Navbar --- */
 
 #navbar {
     padding: 10px 5%;
     background-color: #383c44;
-
 }
 
-.container-fluid .navbar-brand{
+.container-fluid .navbar-brand {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color:  white;
+    color: #ffffff;
 }
 
 .navbar-nav {
     margin-left: auto;
 }
 
-.navbar .navbar-nav .nav-link{
+.navbar .navbar-nav .nav-link {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #70827b ; 
+    color: #70827b;
 }
 
-.navbar .container-fluid .navbar-brand:hover {
+.navbar .container-fluid .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover,
+#nav-link-green:hover {
     color: rgb(235, 213, 16);
 }
 
-.navbar .navbar-nav .nav-link:hover {
-    color: rgb(235, 213, 16);
-}
-
-.navbar-nav .nav-item .nav-link-white {
-    color:  white;
-}
-
-.nav-item .nav-link :hover {
-    color: rgb(235, 213, 16);
-}
-
-
-#nav-link-green{
+#nav-link-green {
     color: #81c53d;
 }
 
-#nav-link-green:hover{
-    color: rgb(235, 213, 16);
-
-}
-
-
-/* ------- Imagen ------- */
+/* ---Carousel--- */
 
 .carousel-item {
     position: relative;
@@ -82,30 +61,28 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0; 
+    z-index: 0;
 }
 
 .card-img-overlay {
-    z-index: 1; 
+    z-index: 1;
     margin-right: 5%;
-    width: 50%;
+    width: 55%;
 
 }
 
-
-.card-img-overlay 
-.card-title,
-.card-text,
-.btn {
+.card-img-overlay .card-title,
+.card-img-overlay .card-text,
+.card-img-overlay .btn {
     margin-bottom: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white;
 }
 
-.card-text,
-.btn {
-    font-size: 1.2rem;   
+.card-img-overlay .card-text,
+.card-img-overlay .btn {
+    font-size: 1.2rem;
 }
 
 .btn {
@@ -113,15 +90,66 @@ body{
 }
 
 
+/* ====== MAIN ====== */
 
-/* ===================== MAIN ===================  */
 
+/* --- Section2 --- */
 
-/* ------- Section2 ------- */
-
-.oradores-title{
+.oradores-title {
     text-align: center;
 }
 
+#section2 {
+    margin: 25px auto;
+    width: 85%;
+}
+
+/* --- Section3 --- */
+
+#section3 {
+    margin-top: 40px;
+}
+
+.section3-tex {
+    background-color: #364354;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+/* ====== FOOTER ====== */
+
+footer {
+    margin-top: 50px;
+    background-color: #224a62;
+}
+
+.footer-row{
+    padding-left: 10%;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.footer-row div ul li{
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.footer-row div ul li a{
+    color: #b0b8b5;
+    text-decoration: none;
+}
 
 
+.footer-row div ul li a:hover{
+    color: rgb(235, 213, 16);
+}
+
+.white-line {
+    height: 1px; 
+    background-color: #ffffff;
+    margin: 15px auto 5px;
+    width: 80%;
+    
+}
