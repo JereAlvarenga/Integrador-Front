@@ -25,7 +25,6 @@ body {
 .container-fluid .navbar-brand {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #ffffff;
 }
 
 .navbar-nav {
@@ -38,7 +37,6 @@ body {
     color: #70827b;
 }
 
-.navbar .container-fluid .navbar-brand:hover,
 .navbar .navbar-nav .nav-link:hover,
 #nav-link-green:hover {
     color: rgb(235, 213, 16);
@@ -85,7 +83,7 @@ body {
     font-size: 1.2rem;
 }
 
-.btn {
+.card-img-overlay div .btn {
     margin: 15px 0 0 15px;
 }
 
@@ -104,6 +102,19 @@ body {
     width: 85%;
 }
 
+.sombra {
+    box-shadow: 2px 13px 30px 0px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 2px 13px 30px 0px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 2px 13px 30px 0px rgba(0, 0, 0, 0.37);
+}
+
+.sombra:hover {
+    box-shadow: 2px 13px 30px 13px rgba(0, 0, 0, 0.37);
+    -webkit-box-shadow: 2px 13px 30px 13px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 2px 13px 30px 13px rgba(0, 0, 0, 0.37);
+}
+
+
 /* --- Section3 --- */
 
 #section3 {
@@ -118,6 +129,33 @@ body {
     color: #ffffff;
 }
 
+/* --- Section4 --- */
+
+#section4 {
+    margin-top: 40px;
+}
+
+.container-form {
+    margin: auto;
+    width: 50%;
+}
+
+.form-text {
+    display: flex;
+}
+
+.container-form #nombre,
+#apellido {
+    width: 50%
+}
+
+.container-form #nombre {
+    margin-right: 5%;
+}
+
+
+
+
 /* ====== FOOTER ====== */
 
 footer {
@@ -125,31 +163,32 @@ footer {
     background-color: #224a62;
 }
 
-.footer-row{
+.footer-row {
     padding-left: 10%;
     align-content: center;
     margin: 0 auto;
     justify-content: space-around;
 }
 
-.footer-row div ul li{
+.footer-row div ul li {
     margin-bottom: 5px;
     text-decoration: none;
 }
-.footer-row div ul li a{
+
+.footer-row div ul li a {
     color: #b0b8b5;
     text-decoration: none;
 }
 
 
-.footer-row div ul li a:hover{
+.footer-row div ul li a:hover {
     color: rgb(235, 213, 16);
 }
 
 .white-line {
-    height: 1px; 
+    height: 1px;
     background-color: #ffffff;
     margin: 15px auto 5px;
     width: 80%;
-    
+
 }
